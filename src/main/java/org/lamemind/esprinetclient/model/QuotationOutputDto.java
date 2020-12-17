@@ -51,15 +51,15 @@ public class QuotationOutputDto {
   @JsonAdapter(StateEnum.Adapter.class)
   public enum StateEnum {
     PENDING("Pending"),
-    
+
     APPROVED("Approved"),
-    
+
     ORDERED("Ordered"),
-    
+
     EXPIRED("Expired"),
-    
+
     REJECTED("Rejected"),
-    
+
     CANCELLED("Cancelled");
 
     private String value;
@@ -94,7 +94,7 @@ public class QuotationOutputDto {
 
       @Override
       public StateEnum read(final JsonReader jsonReader) throws IOException {
-        Object value = jsonReader.nextObject();
+        Object value = jsonReader.nextString();
         return StateEnum.fromValue(String.valueOf(value));
       }
     }
@@ -272,7 +272,7 @@ public class QuotationOutputDto {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class QuotationOutputDto {\n");
-    
+
     sb.append("    id: ").append(toIndentedString(id)).append("\n");
     sb.append("    date: ").append(toIndentedString(date)).append("\n");
     sb.append("    validUntil: ").append(toIndentedString(validUntil)).append("\n");

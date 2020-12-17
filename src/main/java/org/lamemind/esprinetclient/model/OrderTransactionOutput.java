@@ -43,11 +43,11 @@ public class OrderTransactionOutput {
   @JsonAdapter(CommitStatusEnum.Adapter.class)
   public enum CommitStatusEnum {
     PENDING("Pending"),
-    
+
     APPLIEDWITHREJECTIONS("AppliedWithRejections"),
-    
+
     REJECTED("Rejected"),
-    
+
     OK("Ok");
 
     private String value;
@@ -82,7 +82,7 @@ public class OrderTransactionOutput {
 
       @Override
       public CommitStatusEnum read(final JsonReader jsonReader) throws IOException {
-        Object value = jsonReader.nextObject();
+        Object value = jsonReader.nextString();
         return CommitStatusEnum.fromValue(String.valueOf(value));
       }
     }
@@ -214,7 +214,7 @@ public class OrderTransactionOutput {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrderTransactionOutput {\n");
-    
+
     sb.append("    date: ").append(toIndentedString(date)).append("\n");
     sb.append("    esprinetOrderId: ").append(toIndentedString(esprinetOrderId)).append("\n");
     sb.append("    commitStatus: ").append(toIndentedString(commitStatus)).append("\n");
