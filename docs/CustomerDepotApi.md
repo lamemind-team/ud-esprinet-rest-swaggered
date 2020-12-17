@@ -23,8 +23,8 @@ Get the customer depot delivery note by Id
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiException;
-//import io.swagger.client.api.CustomerDepotApi;
+//import org.lamemind.esprinetclient.invoker.ApiException;
+//import org.lamemind.esprinetclient.api.CustomerDepotApi;
 
 
 CustomerDepotApi apiInstance = new CustomerDepotApi();
@@ -68,8 +68,8 @@ Get all delivery notes of the customer depot
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiException;
-//import io.swagger.client.api.CustomerDepotApi;
+//import org.lamemind.esprinetclient.invoker.ApiException;
+//import org.lamemind.esprinetclient.api.CustomerDepotApi;
 
 
 CustomerDepotApi apiInstance = new CustomerDepotApi();
@@ -119,8 +119,8 @@ Get the customer depot order by Id
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiException;
-//import io.swagger.client.api.CustomerDepotApi;
+//import org.lamemind.esprinetclient.invoker.ApiException;
+//import org.lamemind.esprinetclient.api.CustomerDepotApi;
 
 
 CustomerDepotApi apiInstance = new CustomerDepotApi();
@@ -164,8 +164,8 @@ Get all orders of the customer depot.
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiException;
-//import io.swagger.client.api.CustomerDepotApi;
+//import org.lamemind.esprinetclient.invoker.ApiException;
+//import org.lamemind.esprinetclient.api.CustomerDepotApi;
 
 
 CustomerDepotApi apiInstance = new CustomerDepotApi();
@@ -217,8 +217,8 @@ Get the product of the customer with the given product Id stored in the Esprinet
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiException;
-//import io.swagger.client.api.CustomerDepotApi;
+//import org.lamemind.esprinetclient.invoker.ApiException;
+//import org.lamemind.esprinetclient.api.CustomerDepotApi;
 
 
 CustomerDepotApi apiInstance = new CustomerDepotApi();
@@ -262,8 +262,8 @@ Get all products of the customer stored in the Esprinet depot
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiException;
-//import io.swagger.client.api.CustomerDepotApi;
+//import org.lamemind.esprinetclient.invoker.ApiException;
+//import org.lamemind.esprinetclient.api.CustomerDepotApi;
 
 
 CustomerDepotApi apiInstance = new CustomerDepotApi();
@@ -307,8 +307,8 @@ Get the product of the customer with the given customer or esprinet product Id s
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiException;
-//import io.swagger.client.api.CustomerDepotApi;
+//import org.lamemind.esprinetclient.invoker.ApiException;
+//import org.lamemind.esprinetclient.api.CustomerDepotApi;
 
 
 CustomerDepotApi apiInstance = new CustomerDepotApi();
@@ -354,8 +354,8 @@ Creates a new order containing the specified list of products into the Esprinet 
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiException;
-//import io.swagger.client.api.CustomerDepotApi;
+//import org.lamemind.esprinetclient.invoker.ApiException;
+//import org.lamemind.esprinetclient.api.CustomerDepotApi;
 
 
 CustomerDepotApi apiInstance = new CustomerDepotApi();

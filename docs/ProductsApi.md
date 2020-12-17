@@ -17,8 +17,8 @@ Get a Product Availability Info by the Esprinet or Customer product code
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiException;
-//import io.swagger.client.api.ProductsApi;
+//import org.lamemind.esprinetclient.invoker.ApiException;
+//import org.lamemind.esprinetclient.api.ProductsApi;
 
 
 ProductsApi apiInstance = new ProductsApi();
@@ -64,8 +64,8 @@ Get a Product Pricing Info by the Esprinet or Customer product code
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiException;
-//import io.swagger.client.api.ProductsApi;
+//import org.lamemind.esprinetclient.invoker.ApiException;
+//import org.lamemind.esprinetclient.api.ProductsApi;
 
 
 ProductsApi apiInstance = new ProductsApi();

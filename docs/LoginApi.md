@@ -16,8 +16,8 @@ Performs the logon to the service.
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiException;
-//import io.swagger.client.api.LoginApi;
+//import org.lamemind.esprinetclient.invoker.ApiException;
+//import org.lamemind.esprinetclient.api.LoginApi;
 
 
 LoginApi apiInstance = new LoginApi();

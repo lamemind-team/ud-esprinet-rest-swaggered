@@ -17,8 +17,8 @@ Gets the quotation previously inserted by Id
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiException;
-//import io.swagger.client.api.CustomerQuotationsApi;
+//import org.lamemind.esprinetclient.invoker.ApiException;
+//import org.lamemind.esprinetclient.api.CustomerQuotationsApi;
 
 
 CustomerQuotationsApi apiInstance = new CustomerQuotationsApi();
@@ -62,8 +62,8 @@ Creates a new quotation request containing the specified list of products into t
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiException;
-//import io.swagger.client.api.CustomerQuotationsApi;
+//import org.lamemind.esprinetclient.invoker.ApiException;
+//import org.lamemind.esprinetclient.api.CustomerQuotationsApi;
 
 
 CustomerQuotationsApi apiInstance = new CustomerQuotationsApi();

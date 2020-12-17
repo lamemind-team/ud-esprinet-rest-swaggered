@@ -17,8 +17,8 @@ Get a Delivery Note By Document Number
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiException;
-//import io.swagger.client.api.DeliveryNotesApi;
+//import org.lamemind.esprinetclient.invoker.ApiException;
+//import org.lamemind.esprinetclient.api.DeliveryNotesApi;
 
 
 DeliveryNotesApi apiInstance = new DeliveryNotesApi();
@@ -62,8 +62,8 @@ Get a all the delivery notes by the inserted criterias
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiException;
-//import io.swagger.client.api.DeliveryNotesApi;
+//import org.lamemind.esprinetclient.invoker.ApiException;
+//import org.lamemind.esprinetclient.api.DeliveryNotesApi;
 
 
 DeliveryNotesApi apiInstance = new DeliveryNotesApi();

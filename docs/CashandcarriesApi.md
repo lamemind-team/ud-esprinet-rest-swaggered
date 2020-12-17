@@ -19,8 +19,8 @@ Get a Product Availability Info by the Esprinet or Customer product code for all
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiException;
-//import io.swagger.client.api.CashandcarriesApi;
+//import org.lamemind.esprinetclient.invoker.ApiException;
+//import org.lamemind.esprinetclient.api.CashandcarriesApi;
 
 
 CashandcarriesApi apiInstance = new CashandcarriesApi();
@@ -66,8 +66,8 @@ Get a Product Availability Info by the Esprinet or Customer product code for  th
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiException;
-//import io.swagger.client.api.CashandcarriesApi;
+//import org.lamemind.esprinetclient.invoker.ApiException;
+//import org.lamemind.esprinetclient.api.CashandcarriesApi;
 
 
 CashandcarriesApi apiInstance = new CashandcarriesApi();
@@ -115,8 +115,8 @@ Get a Product Pricing Info by the Esprinet or Customer product code for all the 
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiException;
-//import io.swagger.client.api.CashandcarriesApi;
+//import org.lamemind.esprinetclient.invoker.ApiException;
+//import org.lamemind.esprinetclient.api.CashandcarriesApi;
 
 
 CashandcarriesApi apiInstance = new CashandcarriesApi();
@@ -162,8 +162,8 @@ Get a Product Pricing Info by the Esprinet or Customer product code for  the cho
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiException;
-//import io.swagger.client.api.CashandcarriesApi;
+//import org.lamemind.esprinetclient.invoker.ApiException;
+//import org.lamemind.esprinetclient.api.CashandcarriesApi;
 
 
 CashandcarriesApi apiInstance = new CashandcarriesApi();

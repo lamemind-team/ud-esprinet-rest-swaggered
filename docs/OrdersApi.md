@@ -24,8 +24,8 @@ Delete the order with the given id
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiException;
-//import io.swagger.client.api.OrdersApi;
+//import org.lamemind.esprinetclient.invoker.ApiException;
+//import org.lamemind.esprinetclient.api.OrdersApi;
 
 
 OrdersApi apiInstance = new OrdersApi();
@@ -69,8 +69,8 @@ Get an Order by the Order Id
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiException;
-//import io.swagger.client.api.OrdersApi;
+//import org.lamemind.esprinetclient.invoker.ApiException;
+//import org.lamemind.esprinetclient.api.OrdersApi;
 
 
 OrdersApi apiInstance = new OrdersApi();
@@ -114,8 +114,8 @@ Delete the order line with the given order line id of the given order
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiException;
-//import io.swagger.client.api.OrdersApi;
+//import org.lamemind.esprinetclient.invoker.ApiException;
+//import org.lamemind.esprinetclient.api.OrdersApi;
 
 
 OrdersApi apiInstance = new OrdersApi();
@@ -161,8 +161,8 @@ Unlock the order with the given id
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiException;
-//import io.swagger.client.api.OrdersApi;
+//import org.lamemind.esprinetclient.invoker.ApiException;
+//import org.lamemind.esprinetclient.api.OrdersApi;
 
 
 OrdersApi apiInstance = new OrdersApi();
@@ -206,8 +206,8 @@ Creates a new order containing the specified list of products into the Esprinet 
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiException;
-//import io.swagger.client.api.OrdersApi;
+//import org.lamemind.esprinetclient.invoker.ApiException;
+//import org.lamemind.esprinetclient.api.OrdersApi;
 
 
 OrdersApi apiInstance = new OrdersApi();
@@ -251,8 +251,8 @@ Modifies an already existing order into the Esprinet systems.
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiException;
-//import io.swagger.client.api.OrdersApi;
+//import org.lamemind.esprinetclient.invoker.ApiException;
+//import org.lamemind.esprinetclient.api.OrdersApi;
 
 
 OrdersApi apiInstance = new OrdersApi();
@@ -298,8 +298,8 @@ Return the tracking transaction by the transaction id
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiException;
-//import io.swagger.client.api.OrdersApi;
+//import org.lamemind.esprinetclient.invoker.ApiException;
+//import org.lamemind.esprinetclient.api.OrdersApi;
 
 
 OrdersApi apiInstance = new OrdersApi();
@@ -343,8 +343,8 @@ Obtains a list of orders, already existing into the Esprinet systems, satisfying
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiException;
-//import io.swagger.client.api.OrdersApi;
+//import org.lamemind.esprinetclient.invoker.ApiException;
+//import org.lamemind.esprinetclient.api.OrdersApi;
 
 
 OrdersApi apiInstance = new OrdersApi();
@@ -396,8 +396,8 @@ Obtains a summary of orders satisfying the specified search criterias.  The sear
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiException;
-//import io.swagger.client.api.OrdersApi;
+//import org.lamemind.esprinetclient.invoker.ApiException;
+//import org.lamemind.esprinetclient.api.OrdersApi;
 
 
 OrdersApi apiInstance = new OrdersApi();
