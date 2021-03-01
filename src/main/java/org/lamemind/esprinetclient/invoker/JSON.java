@@ -207,6 +207,8 @@ public class JSON {
                     }
                     if (date.length() == "2020-12-18T00:00:00".length()) {
                         date += ".7445603Z";
+                    } else if (date.length() == "2021-03-01T15:58:11.81".length()) {
+                        date += "35603Z";
                     } else if (date.length() == "2021-03-01T15:53:58.873".length()) {
                         date += "5603Z";
                     }
